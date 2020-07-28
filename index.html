@@ -2,8 +2,47 @@
 <html lang="en">
     <head>
         <title>¯\_(ツ)_/¯</title>
+        <style>
+            .center {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 50px;
+                text-align: center;
+            }
+            .blink_text {
+                animation:1s blinker linear infinite;
+                -webkit-animation:1s blinker linear infinite;
+                -moz-animation:1s blinker linear infinite;
+                color: black;
+            }
+
+            @-moz-keyframes blinker {  
+                0% { opacity: 1.0; }
+                50% { opacity: 0.0; }
+                100% { opacity: 1.0; }
+                }
+
+            @-webkit-keyframes blinker {  
+                0% { opacity: 1.0; }
+                50% { opacity: 0.0; }
+                100% { opacity: 1.0; }
+            }
+
+            @keyframes blinker {  
+                0% { opacity: 1.0; }
+                50% { opacity: 0.0; }
+                100% { opacity: 1.0; }
+            }
+
+        </style>
     </head>
     <body>
-        <center>┬┴┬┴┤(･_├┬┴┬┴</center>
+        <div class="center">
+            ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( <span class="blink_text">▀</span>-<span class="blink_text">▀</span>) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
+            <br/>
+            
+        </div>
     </body>
 </html>
